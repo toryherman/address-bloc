@@ -1,4 +1,4 @@
-require_relative "../models/address_book"
+require_relative '../models/address_book'
 
 RSpec.describe AddressBook do
   describe "attributes" do
@@ -7,7 +7,7 @@ RSpec.describe AddressBook do
       expect(book).to respond_to(:entries)
     end
 
-    it "intializes entries as an array" do
+    it "initializes entries as an array" do
       book = AddressBook.new
       expect(book.entries).to be_an(Array)
     end
