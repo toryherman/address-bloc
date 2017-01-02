@@ -40,7 +40,7 @@ class MenuController
         exit(0)
       else
         system "clear"
-        puts "Sorry, that is not a valid input"
+        puts "#{selection} is not a valid input"
         main_menu
       end
   end
